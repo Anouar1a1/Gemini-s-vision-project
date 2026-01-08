@@ -1,10 +1,10 @@
 # Gemini Vision Project
 
-A visual assistant application designed for visually impaired users. This tool leverages Google's Gemini 1.5 Flash model to analyze real-time video feed from a camera, identify objects, and detect potential hazards in various environments (General, Street, Kitchen). It provides audio feedback and supports voice interaction for follow-up questions.
+A visual assistant application designed for visually impaired users. This tool leverages Google's Gemini 3.0 Flash model to analyze real-time video feed from a camera, identify objects, and detect potential hazards in various environments (General, Street, Kitchen). It provides audio feedback and supports voice interaction for follow-up questions.
 
 ## Features
 
--   **Real-time Image Analysis**: Captures images from a webcam and uses Gemini 1.5 Flash to understand the scene.
+-   **Real-time Image Analysis**: Captures images from a webcam and uses Gemini 3.0 Flash to understand the scene.
 -   **Hazard Detection**: Specialized prompts for "Street" and "Kitchen" modes to prioritize safety warnings (e.g., traffic, hot stoves).
 -   **Voice Interaction**: Users can ask questions via microphone, and the system responds with synthesized speech (Text-to-Speech).
 -   **Follow-up Questions**: Supports conversational context, allowing users to ask more about the previously analyzed image.
