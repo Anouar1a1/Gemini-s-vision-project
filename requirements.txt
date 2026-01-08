@@ -1,0 +1,10 @@
+google-generativeai
+Pillow
+gTTS
+langdetect
+playsound
+opencv-python
+SpeechRecognition
+Flask
+requests
+python-dotenv
