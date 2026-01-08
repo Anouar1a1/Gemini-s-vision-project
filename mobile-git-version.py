@@ -44,7 +44,7 @@ def analyze_image(image_bytes, user_question, mode="general", history=None):
     """
     print(f"🧠 Gemini is thinking in '{mode}' mode...")
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash-latest')
+        model = genai.GenerativeModel('gemini-3.0-flash')
         chat = model.start_chat(history=history or [])
 
         # If this is the first question, we build the detailed system prompt.
